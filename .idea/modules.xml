@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/2021-CSS-Study.iml" filepath="$PROJECT_DIR$/.idea/2021-CSS-Study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../websitetesting/.idea/websitetesting.iml" filepath="$PROJECT_DIR$/../websitetesting/.idea/websitetesting.iml" />
     </modules>
   </component>
 </project>
