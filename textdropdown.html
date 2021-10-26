@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dropdown Menu</title>
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdowncontent {
+            display:none;
+            position: absolute;
+            background-color: #333333;
+            color: white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        .dropdown:hover .dropdowncontent {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div class="dropdown">
+    <span>Mouse Over Me</span>
+    <div class="dropdowncontent">
+        <p>I got that Marney on me</p>
+    </div>
+</div>
+</body>
+</html>
