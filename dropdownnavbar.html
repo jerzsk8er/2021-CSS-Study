@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dropdown Navigation Bar</title>
+    <style>
+        body {
+            background-color: navajowhite;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: black;
+        }
+        .navbar a {
+            float: left;
+            font-size: 17px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover, .dropdown:hover .dropButton {
+
+            background-color: #333333;
+        }
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+        .dropdown .dropButton {
+            font-size: 17px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+        .dropdowncontent a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        .dropdowncontent {
+            display: none;
+            position: absolute;
+            background-color: gray;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        .dropdowncontent:hover {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div class="navbar">
+    <a href="#" class="active">STUNNA'S HOME</a>
+    <a href="#">STUNNA'S ABOUT</a>
+    <a href="#">STUNNA'S TRASH DISCOGRAPHY</a>
+    <a href="#">STUNNA'S FAKE CHAIN SHOP</a>
+    <a href="#">HOW TO CONTACT STUNNA</a>
+<div class="dropdown">
+    <button class="dropButton">Socials
+        <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdowncontent">
+        <a href="#">STUNNA YT</a>
+        <a href="#">STUNNA SOUNDCLOUD</a>
+        <a href="#">STUNNA IG</a>
+        <a href="#">STUNNA SNAP</a>
+        <a href="#">STUNNA WHATSAPP</a>
+    </div>
+</div>
+</div>
+</body>
+</html>
