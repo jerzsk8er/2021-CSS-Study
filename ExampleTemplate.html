@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Example Template - 2 Columns</title>
+    <title>Example Template - 3 Columns</title>
     <style>
         body {
             background-image: url("imgs/STUNNATHAGOAT.jpg");
@@ -47,7 +47,7 @@
         }
 
         li a:hover {
-            background-color: #111
+            background-color: #111;
         }
 
         #content {
@@ -84,6 +84,49 @@
             color: white;
             text-decoration: underline;
         }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropButton {
+            font-size: 17px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .dropdowncontent a {
+            float: none;
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            background-color: #111;
+        }
+
+        .dropdowncontent a:hover {
+            background-color: #414F66;
+        }
+
+        .dropdowncontent {
+            display: none;
+            position: absolute;
+            background-color: black;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdowncontent {
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -97,9 +140,34 @@
         <ul>
             <li><a href="#" class="active">STUNNA'S HOME</a></li>
             <li><a href="#">STUNNA'S ABOUT</a></li>
-            <li><a href="#">STUNNA'S TRASH DISCOGRAPHY</a></li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropButton">STUNNA'S TRASH DISCOGRAPHY
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdowncontent">
+                        <a href="https://soundcloud.com/stunnagambino">STUNNA SOUNDCLOUD</a>
+                        <a href="https://open.spotify.com/artist/15ZjD8Gus20Miqw3fdOaXX">STUNNA SPOTIFY</a>
+                        <a href="https://music.apple.com/us/artist/stunna-gambino/1351496332">STUNNA APPLE MUSIC</a>
+                        <a href="https://audiomack.com/stunna-gambino">STUNNA AUDIOMACK</a>
+                    </div>
+                </div>
+            </li>
             <li><a href="#">STUNNA'S FAKE CHAIN SHOP</a></li>
-            <li><a href="#">HOW TO CONTACT STUNNA</a></li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropButton">HOW TO CONTACT STUNNA
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdowncontent">
+                        <a href="#">EMAIL STUNNA</a>
+                        <a href="#">STUNNA IG</a>
+                        <a href="#">STUNNA TWITTER</a>
+                        <a href="#">STUNNA SNAP</a>
+                        <a href="#">STUNNA WHATSAPP</a>
+                    </div>
+                </div>
+            </li>
         </ul>
     </div>
     <div class="row">
@@ -144,7 +212,8 @@
     </div>
     <div class="row">
         <div id="footer">
-            Copywritten by STUNNA | STUNNA GAMBINO IS TRASH | <a href="mailto:stunnagambino1@gmail.com"> stunnagambino1@gmail.com </a>
+            Copywritten by STUNNA | STUNNA GAMBINO IS TRASH | <a href="mailto:stunnagambino1@gmail.com">
+            stunnagambino1@gmail.com </a>
         </div>
     </div>
 </div>
