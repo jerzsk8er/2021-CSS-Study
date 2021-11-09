@@ -5,9 +5,10 @@ body {
 
 .container {
     color: white;
-    background-color: white;
+    background-color: black;
     width: 80%;
     margin: auto;
+    font-family: PT Sans;
 }
 
 #header {
@@ -94,7 +95,21 @@ li a:hover {
     display: block;
 }
 
-img {
-    height: auto;
-    width: 20px;
+tr {
+    border: 1px solid white;
+}
+
+td {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.container table {
+    height: 50%;
+    width: 20%;
+    border: 5px solid white;
+    margin-top: 100px;
+}
+
+.container img {
 }
