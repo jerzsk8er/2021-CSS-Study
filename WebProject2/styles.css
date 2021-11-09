@@ -105,11 +105,13 @@ td {
 }
 
 .container table {
+    margin-left: 80px;
     height: 50%;
-    width: 20%;
+    width: 50%;
     border: 5px solid white;
-    margin-top: 100px;
+    margin-top: 160px;
 }
 
 .container img {
+    padding-left: 80px;
 }
