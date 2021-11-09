@@ -93,3 +93,8 @@ li a:hover {
 .dropdown1:hover .dropdowncontent1 {
     display: block;
 }
+
+img {
+    height: auto;
+    width: 20px;
+}
