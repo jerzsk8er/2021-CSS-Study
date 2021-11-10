@@ -133,3 +133,11 @@ td {
     padding-bottom: 20px;
     width: 300px;
 }
+
+#footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    background-color: #333;
+}
