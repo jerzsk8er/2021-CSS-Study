@@ -115,3 +115,18 @@ td {
 .container img {
     padding-left: 80px;
 }
+
+.column1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.column2{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.column3 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
