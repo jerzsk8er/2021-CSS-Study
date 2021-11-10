@@ -45,7 +45,7 @@ li a {
 
 li a:hover {
     background-color: #111;
-    color:white;
+    color: white;
 }
 
 .dropdown1 {
@@ -116,13 +116,13 @@ td {
     padding-left: 80px;
 }
 
-.column1{
+.column1 {
     padding-top: 50px;
     padding-bottom: 20px;
     width: 300px;
 }
 
-.column2{
+.column2 {
     padding-top: 50px;
     padding-bottom: 20px;
     width: 300px;
