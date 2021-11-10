@@ -119,14 +119,17 @@ td {
 .column1{
     padding-top: 50px;
     padding-bottom: 20px;
+    width: 300px;
 }
 
 .column2{
     padding-top: 50px;
     padding-bottom: 20px;
+    width: 300px;
 }
 
 .column3 {
     padding-top: 50px;
     padding-bottom: 20px;
+    width: 300px;
 }
